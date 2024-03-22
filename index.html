@@ -374,7 +374,7 @@
         </div>
         <div class="footer-form-l">
             <p class="footer-form-title">Subscribe</p>
-            <form class="footer-form-">
+            <form class="foot-form">
                 <label for="email" class="footer-label">
                     <input id="email" name="user-email" type="email" placeholder="E-mail" class="footer-input">
                 </label>
@@ -388,10 +388,10 @@
     </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
         <div class="modal">
-            <button type="submit" class="modal-button">
-                <svg class="close-icon" width="8px" height="8px">
+            <button type="button" class="modal-button">
+                <svg class="close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
@@ -401,7 +401,7 @@
                     <label for="user-name" class="modal-label">Name</label>
                     <div class="modal-input-wrap">
                         <input type="text" name="user-name" class="modal-input" placeholder="" id="user-name">
-                        <svg class="modal-icon" width="18px" height="24px">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
                         </svg>
                     </div>
@@ -411,7 +411,7 @@
                     <div class="modal-input-wrap">
                         <input type="tel" name="user-tel" class="modal-input" placeholder="" id="user-tel" required
                             title="+380 (68) 285 57 53" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}">
-                        <svg class="modal-icon" width="18px" height="24px">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
                         </svg>
                     </div>
@@ -420,28 +420,26 @@
                     <label for="user-email" class="modal-label">Email</label>
                     <div class="modal-input-wrap">
                         <input type="email" name="user-email" class="modal-input" placeholder="" id="user-email">
-                        <svg class="modal-icon" width="18px" height="24px">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
+                <div class="modal-field-textarea">
                     <label for="user-comment" class="modal-label">Comment</label>
-                    <textarea name="user-text" id="user-comment" placeholder="Text input" class="modal-text"></textarea>
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-text"></textarea>
                 </div>
                 <div class="modal-field-checkbox">
-                    <input type="checkbox" name="user-privacy" required id="user-privacy" class="modal-check" value="true" />
+                    <input type="checkbox" name="user-privacy" required id="user-privacy" class="visually-hidden" value="true" />
                     <label for="user-privacy" class="check-text">
-                        <span>
+                        <span class="modal-check-span">
                             <svg class="modal-check-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-Vector">
                             </svg>
                         </span>
                         I accept the terms and conditions of the <a href="" class="check-link"> Privacy Policy </a> </label>
                 </div>
-                <div class="modal-open-but">
                     <button type="submit" class="modal-open-button">Send</button>
-                </div>
             </form>
         </div>
     </div>
