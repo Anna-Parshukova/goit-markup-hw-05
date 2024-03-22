@@ -802,7 +802,7 @@ margin-right: 120px;
 }
 
 
-.modal-check:checked + .check-text span {
+.visually-hidden:checked + .check-text span {
     border: none;
     background-color: #404BBF;
     fill: #F4F4FD;
